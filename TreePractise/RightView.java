@@ -70,7 +70,7 @@ public class RightView {
                 }
                 if(temp.right!=null){
                     q.offer(temp.right);
-                }
+                 }
             }
         }
 
