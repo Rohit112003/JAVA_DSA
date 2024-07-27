@@ -12,7 +12,7 @@ public class MinimuminRotatedSortedArray {
         int ans = Integer.MAX_VALUE;
         while(low<=high){
             int mid = (low+high)/2;
-            if(arr[low]<=arr[high]){
+            if(arr[low]<=arr[mid]){
                 ans = Math.min(arr[low],ans);
                 low = mid+1;
 
