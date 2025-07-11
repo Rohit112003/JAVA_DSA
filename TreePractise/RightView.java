@@ -70,7 +70,11 @@ public class RightView {
                 }
                 if(temp.right!=null){
                     q.offer(temp.right);
+<<<<<<< HEAD
                  }
+=======
+                }
+>>>>>>> 5fd886353b02ca7dc4bc4708aed482ac406a3836
             }
         }
 
